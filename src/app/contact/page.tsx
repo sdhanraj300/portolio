@@ -28,7 +28,7 @@ const ContactPage: React.FC = () => {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.4, duration: 1 }}
                 >
-                    I'd love to connect! Feel free to reach out through any of the platforms below.
+                    I&apos;d love to connect! Feel free to reach out through any of the platforms below.
                 </motion.p>
 
                 <motion.div
