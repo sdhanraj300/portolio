@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image';
 import React from 'react';
-import img from '../assets/coder.avif';
+import img from '../assets/coder.png';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
