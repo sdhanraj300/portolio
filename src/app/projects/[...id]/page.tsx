@@ -7,6 +7,14 @@ import img2 from '@/assets/project-2.png';
 import img3 from '@/assets/project-3.png';
 import img4 from '@/assets/project-4.png';
 
+export async function generateStaticParams() {
+  const projects = ['serenity-events', 'mindful-ai', 'case-cobra', 'metaverse'];
+
+  return projects.map(project => ({
+    id: [project],
+  }));
+}
+
 const ProjectPage = () => {
   const params = useParams();
   const title = params['id'] ? params['id'][0] : null;
