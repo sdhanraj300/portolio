@@ -29,7 +29,7 @@ const AboutMePage: React.FC = () => {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.4, duration: 1 }}
                 >
-                    Hey there! I&apos;m an IT engineering student in my final year with a passion for full-stack web development, and I'm always on the lookout to push the boundaries of modern web design and development.
+                    Hey there! I&apos;m an IT engineering student in my final year with a passion for full-stack web development, and I&apos;m always on the lookout to push the boundaries of modern web design and development.
                 </motion.p>
 
                 <motion.div
